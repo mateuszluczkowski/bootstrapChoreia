@@ -1,0 +1,18 @@
+.main {
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.main.card {
+    width: 250px;
+}
+
+.main.card img {
+    width: 100%;
+}
