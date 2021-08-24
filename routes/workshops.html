@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siemaneczko</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+            <div class="container-fluid d-flex">
+                <!-- <div class="navbar-brand"><img src="images/choreiaLogo.png" width="75" alt=""> Fundacja CHOREIA</div> -->
+                <div class="navbar-brand"> Fundacja CHOREIA</div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main"
+                    aria-controls="#navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse justify-content-start" id="navbar-main">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link ">Start</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Aktualności</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">Warsztaty</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/routes/workshops.html">O warsztatach</a></li>
+                                <li><a class="dropdown-item" href="#">Harmonogram</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Dla dzieci</a></li>
+                                <li><a class="dropdown-item" href="#">Dla dorosłych</a></li>
+                        </li>
+                    </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Kontakt</a>
+                    </li>
+                    </ul>
+                    <ul class="nav nav-expand-md  ml-auto">
+                        <a href="/" class="nav-link text-secondary"><button
+                                class="btn btn-outline-primary">Agroturystyka</button></a>
+
+                        <a href="http://herbaciarniaziolowa.herokuapp.com" class="nav-link text-secondary"><button
+                                class="btn btn-outline-primary">Herbaciarnia Ziołowa</button></a>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+        <div class="banner mb-5">
+            <div class="nav-text font-weight-light">KRS:0000080167</div>
+            <div class="banner_background"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/images/choreiaLogo_white.png" alt="" class="w-100 banner-logo">
+                    </div>
+                    <div class="col-md-9 jumbotron bg-transparent">
+                        <h1 class='display-3 text-white text-uppercase'>Fundacja Choreia</h1>
+                        <p class="lead text-white mb-5">Kryształowice - Sobótka - Wrocław</p>
+                        <p class="text-white">W maleńkiej wsi za lasem ,w gminie
+                            Sobótka. 10 lat temu,
+                            powołując „Fundację Choreia" ,zaczęliśmy pracować z dziećmi i młodzieżą prowadząc świetlicę
+                            środowiskową. Z czasem nasze działania rozwinęły się w ramach powołanego w Kryształowicach
+                            Wiejskiego
+                            Domu Kultury "Kryształ", w którym do dziś prowadzimy warsztaty. Szeroki zakres zajęć - od
+                            teatru,
+                            tańca
+                            przez warsztaty plastyczne, wystawy, koncerty czy imprezy plenerowe- skupia wokół nas
+                            dzieciaki,
+                            młodzież i liczną grupę dorosłych.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <section class="main mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <h3 class='my-4'>Menu</h4>
+                            <a href="/" class="list-group-item list-group-item-action ">
+                                Strona główna
+                            </a>
+                            <a href="/news" class="list-group-item list-group-item-action">
+                                Aktualności
+                            </a>
+                            <a href="/routes/workshops.html" class="list-group-item list-group-item-action active">
+                                Warsztaty
+                            </a>
+                            <a href="agro" class="list-group-item list-group-item-action">
+                                Agroturystyka
+                            </a>
+                            <a href="https://herbaciarniaziolowa.herokuapp.com"
+                                class="list-group-item list-group-item-action">
+                                Herbaciarnia ziołowa
+                            </a>
+                            <a href="/gallery" class="list-group-item list-group-item-action">
+                                Galeria
+                            </a>
+                            <a href="/contact" class="list-group-item list-group-item-action">
+                                Kontakt
+                            </a>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <h3 class="mt-2 mb-5">Warsztaty</h3>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-title  bg-transparent" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Ceramika
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+
+
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/ceramic.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light"> Ceramika – w rozumieniu tradycyjnym to
+                                            tworzywa
+                                            i
+                                            wyroby
+                                            otrzymywane w wyniku
+                                            wypalenia odpowiednio uformowanej gliny. Nazwa tych wyrobów wywodzi się z
+                                            greckiego
+                                            określenia κεραμικός (keramikos), które pochodzi z kolei od słowa κέραμος
+                                            (keramos –
+                                            ziemia).
+                                            Już w paleolicie człowiek wytwarzał ceramikę aby z czasem doskonalić
+                                            technikę i
+                                            upiększać jej formę. Jak świat długi i szeroki nie wyobrażamy sobie bez niej
+                                            życia.
+                                            Nasza pracownia ceramiczna wyposażona jest w piec do wypalania ceramiki , co
+                                            pozwala
+                                            na kontrolowanie całego procesu twórczego. Od pomysłu , ulepienia do
+                                            skończonego
+                                            dzieła - tak powstają prace naszych kursantów.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed " data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Mozaika szklana
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+
+
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/mozaik.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light"> Mozaika – dekoracja w postaci ornamentu
+                                            lub obrazu,
+                                            wykonana z drobnych, o różnej kolorystyce, fakturze i kształcie kamyczków,
+                                            kawałków szkła lub ceramiki.Technika znana była już w starożytności.
+                                            Najstarsze, znalezione pochodzą sprzed pięciu tysięcy lat. W starożytnej
+                                            Grecji pierwsze mozaiki układano z otoczaków znalezionych na brzegach rzek i
+                                            morza.
+
+                                            W naszej pracowni powstają mozaiki szklane i ceramiczne - jedne i drugie
+                                            pokazują jak wielką wyobraźnię mają uczestnicy naszych warsztatów.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Malowanie na jedwabiu
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/jedwab.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light">Skojarzenia z jedwabiem nasuwają sie
+                                            same: Chiny, szlak
+                                            handlowy, kokon, jedwabnik,morwa ale także Milanówek, apaszka,malowanie na
+                                            jedwabiu.Ta delikatna, naturalna tkanina ma swoją długą, ciekawą historię a
+                                            piękne ubrania z niej uszyte stanowią obiekt westchnień miłośników mody na
+                                            całym świecie. A co powiecie na własnoręcznie malowane chusty i szale albo
+                                            obrazy....Niespotykana radość tworzenia czeka wszystkich chętnych, chcących
+                                            zmierzyć się z tą materią......</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Świece parafinowe
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/swiece.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light">Przed wprowadzeniem elektryczności
+                                            świece były powszechnym
+                                            źródłem światła; szczególnie w północnej Europie aż do XIX były częściej
+                                            używane niż lampki oliwne.
+                                            Obecnie świece wykorzystywane są głównie ze względu na walory estetyczne
+                                            (np. dla wytworzenia romantycznego nastroju) lub w nagłych przypadkach, w
+                                            razie przerw w dopływie energii elektrycznej...tak, tak czasami tak bywa...
+                                            Świec używano już najmniej 3000 lat temu. Wspomina o nich Stary Testament a
+                                            Rzymianie wytwarzali je z lnu oblewanego woskiem i smołą. Często stosowano
+                                            też wosk pszczeli i tłuszcz zwierzęcy.
+                                            Na warsztatach Fundacji " Choreia " świece to nie tylko woskowy walec z
+                                            zatopionym w nim knotem, to małe dzieła sztuki z unikalnym zdobieniem.
+                                            Zajęcia, na których tworzymy świece, należą do ulubionych , bardzo
+                                            popularnych warsztatów. </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Warsztaty teatralne
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordion">
+                                <div class="card-body">
+
+                                    <div class="col-md"> <img src="/images/workshops/teatr.jpg" class="w-100" alt="">
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Witraż
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#accordion">
+                                <div class="card-body">
+
+                                    <div class="row">
+
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                    src="/images/workshops/swiece.jpg" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-md-6 font-weight-light">Przed wprowadzeniem elektryczności
+                                                świece były
+                                                powszechnym
+                                                źródłem światła; szczególnie w północnej Europie aż do XIX były
+                                                częściej
+                                                używane niż lampki oliwne.
+                                                Obecnie świece wykorzystywane są głównie ze względu na walory
+                                                estetyczne
+                                                (np. dla wytworzenia romantycznego nastroju) lub w nagłych
+                                                przypadkach, w
+                                                razie przerw w dopływie energii elektrycznej...tak, tak czasami tak
+                                                bywa...
+                                                Świec używano już najmniej 3000 lat temu. Wspomina o nich Stary
+                                                Testament a
+                                                Rzymianie wytwarzali je z lnu oblewanego woskiem i smołą. Często
+                                                stosowano
+                                                też wosk pszczeli i tłuszcz zwierzęcy.
+                                                Na warsztatach Fundacji " Choreia " świece to nie tylko woskowy
+                                                walec z
+                                                zatopionym w nim knotem, to małe dzieła sztuki z unikalnym
+                                                zdobieniem.
+                                                Zajęcia, na których tworzymy świece, należą do ulubionych , bardzo
+                                                popularnych warsztatów. </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        Decoupage
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/decoupage.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light">Decoupage polega na naklejaniu wzoru z
+                                            papieru i pokryciu
+                                            go wieloma warstwami lakieru na uprzednio przygotowaną powierzchnię tak, aby
+                                            wtopił się całkowicie i nie był wyczuwalny przy dotknięciu. W zamyśle ma on
+                                            wyglądać jak namalowany.
+
+                                            Słowo decoupage pochodzi od francuskiego czasownika „decouper” – wycinać.
+
+                                            Nauczymy stosować decoupage na niemal każdej powierzchni: drewno,sklejka,
+                                            papier, tektura,tkaniny,metal,szkło, świece parafinowe nie są przeszkodą do
+                                            wykorzystania tej techniki. Decoupage ,to świetna zabawa również dla osób ,
+                                            które posądzają siebie o zupełny brak plastycznego talentu. Wszyscy tworzą
+                                            absolutnie unikatowe dzieła.
+
+                                            Satysfakcja gwarantowana !</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingEight">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        Florystyka
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/florystyka.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light">Aby być zawodowym florystą nie wystarczy
+                                            kochać rośliny.
+                                            To dziedzina ,wymagająca wbrew obiegowemu mniemaniu , żmudnej nauki opartej
+                                            na praktyce, paraktyce i jeszcze raz praktyce.To również duża dawka wiedzy
+                                            teoretycznej z zakresu botaniki czy plastyki.To w końcu w pewnym sensie
+                                            filozofia życia wśród kwiatów. W trakcie naszych zajęć florystycznch
+                                            próbujemy zmierzyć się z trudną sztuką układania bukietów czy ikebaną,
+                                            pleciemy wianki,tworzymy okolicznościowe stroiki z zupełnie niezłym efektem.
+                                            Jeśli zapytacie o najbardziej radosne warsztaty - to florystyczne będą do
+                                            nich należeć na pewno.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title bg-transparent" id="headingNine">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        Tańce w kręgu
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex justify-content-center align-items-center"> <img
+                                                src="/images/workshops/tance.jpg" class="w-100" alt="">
+                                        </div>
+                                        <div class="col-md-6 font-weight-light"> „Koło uznawane jest za prastary symbol
+                                            wieczności."
+
+                                            „Tańce w kręgu, po korowodzie, nazywane są przez uczestników spotkaniami
+                                            zachwytu, skupienia, refleksji nad sobą, spotkaniami radości z przebywania z
+                                            innymi. Stopień trudności tańców dobiera się ze względu na osoby w kręgu,
+                                            zazwyczaj wraca się do tańców prostych, rytmicznych, nie wymagających
+                                            specjalnych umiejętności. Dobór kroków uwzględnia potrzeby uczestników oraz
+                                            danej chwili, tak aby każdy znalazł w kręgu coś dla siebie: sposób na
+                                            wyrażenie wdzięczności, radości, powagi, skupienia, dynamiki czy zwolnienia.
+                                            Jest więc czas na rytmiczne podskoki podczas tańców szkockich, irlandzkich,
+                                            greckich, ale i czas na dostojne kroki podczas tańców izraelskich,
+                                            francuskich. Tańczymy nie tylko po kole, ale także w parach i w rzędach,
+                                            liniowo, sięgając do tradycji narodowych, do korzeni naszych praprzodków i
+                                            do samych siebie."
+
+                                            Cytat na podstawie: „Droga tancerza” Bernhard Wosien . Białystok 2003</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside>
+                <div class="card main">
+                    <h5 class="card-title text-center font-weight-bold text-primary py-3">Najbliższe
+                        wydarzenie</h5>
+                    <img src="/images/polkolonia.png" class="card-img-top">
+                    <p class="card-text text-center my-2">Plener artystyczny dla dzieci i młodzieży w
+                        Kryształowicach</p>
+                    <a href="#" class="my-2 mr-2 ml-auto"><button class="btn btn-primary ">Więcej</button></a>
+                </div>
+            </aside>
+        </div>
+        </div>
+    </section>
+    <footer class='footer bg-dark text-white text-lg-white text-center pt-1'>
+        <div class="container text-center text-md-light mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="mb-4 text-uppercase fw-bold">Fundacja Choreia</h5>
+                        <p class="text-muted text-left">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facere ipsam sint eaque fugiat
+                            architecto, velit aliquam quaerat nostrum necessitatibus pariatur quidem assumenda esse
+                            quasi eos dolores? Eum, numquam corrupti?
+                        </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="mb-4 text-uppercase fw-bold">Menu</h6>
+                    <p class='text-left'><a class='text-white' href="">Strona główna</a></p>
+                    <p class='text-left'><a class='text-white' href="/routes/workshops.html">Warsztaty</a></p>
+                    <p class='text-left'><a class='text-white' href="">Agroturystyka</a></p>
+                    <p class='text-left'><a class='text-white' href="">Galeria</a></p>
+                    <p class='text-left'><a class='text-white' href="">Kontakt</a></p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="mb-4 text-uppercase fw-bold">Przydatne linki</h6>
+                    <p class='text-left'><a class='text-white' href="">Link1</a></p>
+                    <p class='text-left'><a class='text-white' href="">Link2</a></p>
+                    <p class='text-left'><a class='text-white' href="">Link3</a></p>
+                    <p class='text-left'><a class='text-white' href="">Link4</a></p>
+                    <p class='text-left'><a class='text-white' href="">Link5</a></p>
+                    <p class='text-left'><a class='text-white' href="">Link6</a></p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="mb-4 text-uppercase fw-bold">Kontakt</h4>
+                        <p>
+                            <i class="fas fa-home me-3"></i> ul. Leśna 14, 55-050 Kryształowice
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> choreia@wp.pl</i>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +48 500 000 000</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-4 bg-dark" style="background-color: black;">
+            © 2021 Copyright:
+            <a class=" text-reset fw-bold"">Strona stworzona przez: Mateusza Łuczkowskiego</a>
+        </div>
+    </footer>
+    <script src=" /../js/jquery-3.5.1.slim.min.js"> </script> <script src=" /../js/bootstrap.bundle.min.js"> </script>
+                <script>
+                    $(document).ready(function () {
+                        $(".dropdown-toggle").dropdown();
+                    });
+                </script>
+</body>
+
+</html>
+
+</body>
+
+</html>

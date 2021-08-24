@@ -14,7 +14,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
 
             <div class="container-fluid d-flex">
-                <!-- <div class="navbar-brand"><img src="images/choreiaLogo.jpg" width="100" alt=""> Fundacja CHOREIA</div> -->
+                <!-- <div class="navbar-brand"><img src="images/choreiaLogo.png" width="75" alt=""> Fundacja CHOREIA</div> -->
+                <div class="navbar-brand"> Fundacja CHOREIA</div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main"
                     aria-controls="#navbar-main" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span> </button>
@@ -30,23 +31,23 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-expanded="false">Warsztaty</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/routes/workshops.html">O warsztatach</a></li>
                                 <li><a class="dropdown-item" href="#">Harmonogram</a></li>
-                                <li><a class="dropdown-item" href="#">Dla dzieci</a></li>
-                                <li><a class="dropdown-item" href="#">Dla dorosłych</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">O warsztatach</a></li>
-                            </ul>
+                                <li><a class="dropdown-item" href="#">Dla dzieci</a></li>
+                                <li><a class="dropdown-item" href="#">Dla dorosłych</a></li>
                         </li>
+                    </ul>
+                    </li>
 
 
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Kontakt</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Kontakt</a>
+                    </li>
                     </ul>
                     <ul class="nav nav-expand-md  ml-auto">
                         <a href="/" class="nav-link text-secondary"><button
@@ -61,25 +62,32 @@
             </div>
 
         </nav>
-        <div class="banner">
-            <div class="nav-text font-weight-bold">KRS:0000080167</div>
+        <div class="banner mb-5">
+            <div class="nav-text font-weight-light">KRS:0000080167</div>
             <div class="banner_background"></div>
             <div class="container">
-                <div class="jumbotron bg-transparent">
-                    <h1 class='display-3 text-white text-uppercase'>Fundacja Choreia</h1>
-                    <p class="lead text-white mb-5">Kryształowice - Sobótka - Wrocław</p>
-                    <p class="text-white">W maleńkiej wsi za lasem ,w gminie
-                        Sobótka. 10 lat temu,
-                        powołując „Fundację Choreia" ,zaczęliśmy pracować z dziećmi i młodzieżą prowadząc świetlicę
-                        środowiskową. Z czasem nasze działania rozwinęły się w ramach powołanego w Kryształowicach
-                        Wiejskiego
-                        Domu Kultury "Kryształ", w którym do dziś prowadzimy warsztaty. Szeroki zakres zajęć - od
-                        teatru,
-                        tańca
-                        przez warsztaty plastyczne, wystawy, koncerty czy imprezy plenerowe- skupia wokół nas dzieciaki,
-                        młodzież i liczną grupę dorosłych.
-                    </p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/images/choreiaLogo_white.png" alt="" class="w-100 banner-logo">
+                    </div>
+                    <div class="col-md-9 jumbotron bg-transparent">
+                        <h1 class='display-3 text-white text-uppercase'>Fundacja Choreia</h1>
+                        <p class="lead text-white mb-5">Kryształowice - Sobótka - Wrocław</p>
+                        <p class="text-white">W maleńkiej wsi za lasem ,w gminie
+                            Sobótka. 10 lat temu,
+                            powołując „Fundację Choreia" ,zaczęliśmy pracować z dziećmi i młodzieżą prowadząc świetlicę
+                            środowiskową. Z czasem nasze działania rozwinęły się w ramach powołanego w Kryształowicach
+                            Wiejskiego
+                            Domu Kultury "Kryształ", w którym do dziś prowadzimy warsztaty. Szeroki zakres zajęć - od
+                            teatru,
+                            tańca
+                            przez warsztaty plastyczne, wystawy, koncerty czy imprezy plenerowe- skupia wokół nas
+                            dzieciaki,
+                            młodzież i liczną grupę dorosłych.
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -96,7 +104,7 @@
                             <a href="/news" class="list-group-item list-group-item-action">
                                 Aktualności
                             </a>
-                            <a href="workshops" class="list-group-item list-group-item-action">
+                            <a href="/routes/workshops.html" class="list-group-item list-group-item-action">
                                 Warsztaty
                             </a>
                             <a href="agro" class="list-group-item list-group-item-action">
@@ -155,7 +163,7 @@
             </div>
         </div>
     </section>
-    <footer class='footer bg-dark text-white text-lg-white text-center pt-1'>
+    <footer class='footer text-white text-lg-white text-center pt-1'>
         <div class="container text-center text-md-light mt-5">
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">

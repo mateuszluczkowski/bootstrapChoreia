@@ -40,6 +40,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: "./index.html" }),
+    new HtmlWebpackPlugin({
+      template: "./routes/workshops.html",
+      filename: "./routes/workshops.html",
+    }),
     new webpack.HotModuleReplacementPlugin(),
   ],
 };

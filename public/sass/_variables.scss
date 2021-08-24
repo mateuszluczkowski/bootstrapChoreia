@@ -6,7 +6,13 @@ $border-radius-lg: 0;
 $border-radius-sm: 0;
 
 $primary: #0a9fda;
+$primary-darker: darken($primary, 10%);
+$primary-dark: darken($primary, 30%);
+;
+
 $theme-colors: ("primary":$primary);
+
+
 
 $jumbotron-bg: rgba(0, 0, 0, 0.5);
 
@@ -16,3 +22,6 @@ $navbar-toggler-padding-x: 0;
 
 $breadrumb-bg: transparent;
 $breadrumb-padding-x:0;
+
+
+$second-color:#020079;

@@ -20,8 +20,14 @@
 .nav-text {
     position: absolute;
     bottom: 10px;
-    right: 25px;
+    right: 50px;
     color: white;
     font-size: 20px;
 
+}
+
+.banner-logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
